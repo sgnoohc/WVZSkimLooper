@@ -10,7 +10,7 @@ data_fname="outputs/data.root"
 legend_labels=[ "Higgs", "Others", "t#bar{t}Z", "tWZ", "WZ", "ZZ", ]
 signal_labels=["WWZ", "WZZ", "ZZZ"]
 usercolors=[2011,920,2005,2007,2003,2001]
-dirname="plots/",
+dirname="plots/"
 
 p.dump_plot(
         filter_pattern="ChannelOnZ__,ChannelBTagEMu__",
